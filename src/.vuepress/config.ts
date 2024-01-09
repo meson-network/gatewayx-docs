@@ -9,17 +9,17 @@ module.exports = {
     locales: {
     '/': {
         lang: 'en-US',
-        title: 'Meson Network',
+        title: 'Gateway X',
         description: description,
     },
     '/ru/': {
         lang: 'ru',
-        title: 'Meson Network',
+        title: 'Gateway X',
         description: 'description',
     },
     '/tr/': {
         lang: 'tr',
-        title: 'Meson Network',
+        title: 'Gateway X',
         description: 'description',
     },
     },
@@ -79,7 +79,7 @@ module.exports = {
 
     themeConfig: {
         darkMode:false,
-        docsRepo: 'daqnext/meson-docs',
+        docsRepo: 'meson-network/gatewayx-docs',
         sidebarDepth: 3,
         contributors: false,
         docsDir: 'src',
@@ -185,16 +185,9 @@ module.exports = {
                         text: '👋 Guide',
                         collapsible: true,
                         link: '/README.md',
-                        children: [
-                            '/README.md',
-                            '/meson-token.md',
-                            '/bandwidth-marketplace.md',
-                            '/roadmap.md',
-                            '/partnership.md',
-                        ],
                     },
                     {
-                        text: '🚀 Run Meson Nodes',
+                        text: '🚀 Run Gateway X Nodes',
                         collapsible: true,
                         link: '/nodes/README.md',
                         children: [
@@ -205,7 +198,7 @@ module.exports = {
                         ],
                     },
                     {
-                        text: '⚒️ Use Meson Network',
+                        text: '⚒️ Use Gateway X',
                         collapsible: true,
                         link: '/using/README.md',
                         children: [
@@ -236,11 +229,6 @@ module.exports = {
                         text: '🌀 Open Source',
                         collapsible: true,
                         link: '/opensource.md',
-                    },
-                    {
-                        text: '⛰️ El Camino Real',
-                        collapsible: true,
-                        link: '/community.md',
                     },
                     {
                         text: '🌍 Pricing',
