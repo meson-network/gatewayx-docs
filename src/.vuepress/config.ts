@@ -194,7 +194,7 @@ module.exports = {
                             '/nodes/README.md',
                             '/nodes/run-meson-nodes.md',
                             '/nodes/run-meson-arm-nodes.md',
-                            '/msn-to-goerlieth.md',
+                            '/msn-to-sepolia.md',
                         ],
                     },
                     {
