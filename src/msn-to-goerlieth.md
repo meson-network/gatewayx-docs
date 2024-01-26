@@ -1,119 +1,83 @@
-# MSN to Goerli ETH 🐢
+# Sepolia Based Testnet MSN Token
 
->MSN (Meson Token) is now live on the GoerliETH Testnet, marking the beginning of a new round of testing for the MSN protocol. Join us in exploring and testing the latest features as we continue to enhance and refine the MSN experience.
+>Explore and test the latest features of the MSN as it goes live on the SepoliaETH Testnet, signaling the commencement of a new testing phase. Upgrade to the Sepolia TestNet, and take the opportunity to remap and recover your expired and lost tokens, contributing to the ongoing efforts to enhance and refine the overall MSN experience. Join us in this exciting phase of development!
 
 [[toc]]
 
+## Request Sepolia ETH
+
+If you don't have Sepolia ETH, you need to request Sepolia ETH through the Sepolia ETH faucet.
+
+Sepolia ETH can be obtained through faucet websites such as the [Ethereum Sepolia Faucet](https://sepoliafaucet.com/) or the [Sepolia PoW Faucet](https://sepolia-faucet.pk910.de/).
+
+![](./../images/../src/images/msn/msn-to-sepolia-01.png)
+
 ## Connect Wallet
 
-Click on the link [https://dashboard.meson.network/token_balance/meson_reward_test](https://dashboard.meson.network/token_balance/meson_reward_test) to access the MSN Reward and Token page.
+Click on the link [https://dashboard.meson.network/claim/mining_claim/meson_reward_test/sepolia](https://dashboard.meson.network/claim/mining_claim/meson_reward_test/sepolia) to access the MSN Reward and Token page.
 
 Click `Connect Wallet` to initiate the process of connecting with your wallet.
 
-![](./../images/../src/images/msn/msn01.png)
+![](./../images/../src/images/msn/msn-to-sepolia-02.png)
 
-Select your Goerli account for login and confirm the connection.
+Select your Sepolia account for login and confirm the connection.
 
-If you don't have GoerliETH, you can claim GoerliETH through the [Goerli faucet](https://goerlifaucet.com/).
-
-![](./../images/../src/images/msn/msn02.png)
+![](./../images/../src/images/msn/msn-to-sepolia-03.png)
 
 Click `Bind Wallet`.
 
-![](./../images/../src/images/msn/msn03.png)
+![](./../images/../src/images/msn/msn-to-sepolia-04.png)
 
 Confirm whether to bind the wallet.
 
-![](./../images/../src/images/msn/msn04.png)
+![](./../images/../src/images/msn/msn-to-sepolia-05.png)
 
-## Claim
+## Exchange meson reward to MSN token
 
-Click the `Claim` button.
+Click the `Exchange` button.
 
-![](./../images/../src/images/msn/msn05.png)
+![](./../images/../src/images/msn/msn-to-sepolia-06.png)
 
-Complete the `Choose a chain` step, currently selecting GoerliETH.
+Complete the `Choose a chain` step, currently selecting SepoliaETH.
+sepolia
+![](./../images/../src/images/msn/msn-to-sepolia-07.png)
 
-![](./../images/../src/images/msn/msn06.png)
+Enter the amount of MSN Tokens to be claimed on SepoliaETH.
 
-Enter the amount of MSN Tokens to be claimed on GoerliETH.
+![](./../images/../src/images/msn/msn-to-sepolia-08.png)
 
-![](./../images/../src/images/msn/msn07.png)
+```
+Amount: Enter the amount you wish to claim. You have the option to claim the entire amount or only a portion of it.
+```
 
-Complete the confirmation to transfer MSN to GoerliETH.
+Complete the confirmation to transfer MSN to SepoliaETH.
 
 ::: tip 🚧 TIP
-Your meson reward balance will be transferred to the MSN on Goerli chain, and this operation cannot be undone, please confirm.
+Your meson reward balance will be transferred to the MSN on sepolia-eth-testnet, and this operation cannot be undone, please confirm.
 :::
 
-![](./../images/../src/images/msn/msn08.png)
+![](./../images/../src/images/msn/msn-to-sepolia-09.png)
 
 Click the `Get Token` button.
 
-![](./../images/../src/images/msn/msn09.png)
+![](./../images/../src/images/msn/msn-to-sepolia-10.png)
 
-![](./../images/../src/images/msn/msn10.png)
+![](./../images/../src/images/msn/msn-to-sepolia-11.png)
 
-You have now successfully claimed MSN on GoerliETH.
+You have now successfully claimed MSN on SepoliaETH.
 
-![](./../images/../src/images/msn/msn11.png)
+![](./../images/../src/images/msn/msn-to-sepolia-12.png)
 
-This is the link to my completed transaction on the Goerli Testnet: [0x1ad41ef516b91c36268282dd0059b90f752d0f287957387907a4e9a7daf4fc5a](https://goerli.etherscan.io/tx/0x1ad41ef516b91c36268282dd0059b90f752d0f287957387907a4e9a7daf4fc5a)
-
-## Onchain Swap
-
-The first time you click the `Onchain Swap` button is to set the approval for MSN spending cap. The second time will convert MSN on the GoerliETH chain into MSN Credit.
-
-![](./../images/../src/images/msn/msn12-1.png)
-
-Specify the quantity of MSN to be converted into MSN Credit.
-
-![](./../images/../src/images/msn/msn13.png)
-
-Complete the confirmation to convert MSN into MSN Credit.
-
-![](./../images/../src/images/msn/msn14.png)
-
-Set the maximum amount of MSN that can be transferred in MetaMask and click confirm to approve the MSN spending cap.
-
-![](./../images/../src/images/msn/msn23.png)
-
-Then, click `Swap` again to convert MSN on the GoerliETH chain into MSN Credit.
-
-![](./../images/../src/images/msn/msn17.png)
-
-Click `Confirm` to convert MSN into MSN Credit.
-
-![](./../images/../src/images/msn/msn18.png)
+This is the link to my completed transaction on the Sepolia Testnet: [0x04e78181a67e3726fc8e7572ae2c3ebbec7980c0ba898d82da1a17e0e93a0028](https://sepolia.etherscan.io/tx/0x04e78181a67e3726fc8e7572ae2c3ebbec7980c0ba898d82da1a17e0e93a0028)
 
 ## Import tokens
 
-The smart contract address for MSN on the Goerli network: [0xc08c439c85bd3e65725d08c54fb6f2895436a649](https://goerli.etherscan.io/token/0xc08c439c85bd3e65725d08c54fb6f2895436a649)
+The smart contract address for MSN on the Sepolia network: [0xde939833Ed21FE3833d3d9E545dC7Faa9F161D06](https://sepolia.etherscan.io/token/0xde939833Ed21FE3833d3d9E545dC7Faa9F161D06)
 
-Enter the Token contract address as `0xc08c439c85bd3e65725d08c54fb6f2895436a649` and click `Confirm`.
+Enter the Token contract address as `0xde939833Ed21FE3833d3d9E545dC7Faa9F161D06` and click `Confirm`.
 
-![](./../images/../src/images/msn/msn24.png)
+![](./../images/../src/images/msn/msn-to-sepolia-13.png)
 
 Click `Import`, and you'll be able to view the claimed MSN in MetaMask.
 
-![](./../images/../src/images/msn/msn25.png)
-
-## MSN Credit
-
-MSN Credits are the mechanism by which all Meson Network usage is paid for. In the future, these tokens will be utilized for the circulation of bandwidth, playing a crucial role in the development of the Meson Exchange.
-
-![](./../images/../src/images/msn/tokenomics-beta1.png)
-
-**MSN Credit Fundamentals**
-
-As an example, three MSN Credits are equivalent to one MSN based on the current exchange rate on the Goerli.
-
-`MSN => MSN_Credit swap ratio: 1:3`
-
-**Acquiring MSN Credits**
-
-At the network level, MSN Credits are generated solely through the conversion of MSN, a process that can be accomplished through `Onchain Swap`.
-
-::: tip 🚧 MSN CREDITS ARE NON-TRANSFERABLE
-After the completion of the MSN Credit mint transaction, the receiving wallet address possesses all of the MSN Credits and is unable to transfer them to any other wallet address.
-:::
+![](./../images/../src/images/msn/msn-to-sepolia-14.png)
