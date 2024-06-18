@@ -14,3 +14,4 @@ basement_dist
 .temp
 .cache
 .idea
+node_modules/.cache
